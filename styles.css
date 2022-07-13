@@ -1,0 +1,38 @@
+*{
+    font: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 300px) {
+    .footer {
+        content: center;
+        justify-content: center;
+        color: rgb(128, 125, 125);
+        font: xx-small;
+    }
+    .footer-a {
+        color: rgb(128, 125, 125);
+        font: xx-small;
+    }
+    .footer-h { 
+        color: rgb(128, 125, 125);
+        font: xx-small;
+    }
+}
+    .copyright {
+        color: rgb(128, 125, 125);
+        font: xx-small;
+        justify-content: center;
+    }
