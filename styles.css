@@ -2,37 +2,145 @@
     font: arial;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 300px) {
-    .footer {
-        content: center;
-        justify-content: center;
-        color: rgb(128, 125, 125);
-        font: xx-small;
-    }
-    .footer-a {
-        color: rgb(128, 125, 125);
-        font: xx-small;
-    }
-    .footer-h { 
-        color: rgb(128, 125, 125);
-        font: xx-small;
-    }
+header.scroll {
+    display: flex;
+    
+    list-style: none;
+    align-items:initial;
+    justify-content: space-between;
+    margin-right: 500px;
+    scroll-margin-bottom: 100px;
+    margin-bottom: 100px;
+    text-decoration: none;
 }
-    .copyright {
-        color: rgb(128, 125, 125);
-        font: xx-small;
-        justify-content: center;
-    }
+
+.scroll img {
+    width: 300px;
+}
+
+
+
+.header nav a {
+    display: flex;
+    color: rgb(87, 85, 85);
+    justify-content: space-between;
+}
+
+
+
+.slogan{
+    text-align:center;
+    
+    color: rgb(71, 70, 70);
+    margin-bottom: 100px;
+}
+.slogan h{
+    font-size: 25px;
+    color: rgb(68, 240, 182);
+}
+
+div.intro1 { 
+    display: inline-block; 
+    text-align: left;
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+    margin-left: 250px;
+    margin-top: 25px
+    
+}
+div.intro2 { 
+    display: inline-block;
+    text-align: left; 
+    width: 600px;
+    height: 100px;
+    padding: 5px;
+    margin-right: 250px;
+    
+}
+
+.improves h1 { 
+    color: rgb(68, 240, 182);
+    font-size:  25px;
+    margin-left: 500px;
+    margin-right: 500px; 
+    margin-top: 50px;
+    margin-bottom: 3px;
+    text-align:center;
+}
+
+.improves h2 { 
+    color: rgb(68, 240, 182);
+    font-size:  25px;
+    margin-left: 500px;
+    margin-right: 500px; 
+    margin-top: 3px;
+    margin-bottom: 50px;
+    text-align:center;
+}
+
+.improves p { 
+    color: grey;
+    font-size: 15px;
+    text-align:center;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.join {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+.copyright{
+    display: flex;
+    
+    align-content: center;
+    color: rgb(128, 125, 125);
+    font-size-adjust: 10px;
+    justify-content: center;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+footer a{ text-decoration: none;
+}
+footer h{ 
+    border-top: 1px ridge grey;
+}
+
+ footer.h a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-items: normal;
+ }  
+
+footer h1{
+    align-content: center;
+    color: rgb(128, 125, 125);
+    font-size: 15px;
+    justify-content: center;
+    
+}
